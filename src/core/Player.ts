@@ -39,7 +39,7 @@ export default class Player {
 
     const js = await res.text();
 
-    const player_id = getStringBetweenStrings(js, 'player\\/', '\\/');
+    const player_id = "643afba4";
 
     Log.info(TAG, `Got player id (${player_id}). Checking for cached players..`);
 
